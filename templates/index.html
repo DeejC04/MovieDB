@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Movie Recommendation</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+</head>
     <body>
         <h1>Movie Recommendation</h1>
+        <form method="POST" action="{{url_for('movies')}}">
+            <select name="genre" id ="genre" class="custom-select" multiple>
+                <option value="action">Action</option>
+                <option value="adventure">Adventure</option>
+                <option value="animation">Animation</option>
+                <option value="comedy">Comedy</option>
+                <option value="crime">Crime</option>
+                <option value="documentary">Documentary</option>
+                <option value="drama">Drama</option>
+                <option value="family">Family</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="horror">Horror</option>
+                <option value="music">Music</option>
+                <option value="mystery">Mystery</option>
+                <option value="romance">Romance</option>
+                <option value="science fiction">Science Fiction</option>
+                <option value="tv movie">TV Movie</option>
+                <option value="thriller">Thriller</option>
+                <option value="war">War</option>
+                <option value="western">Western</option>
+            </select>
+        </form>
+        <script src="../static/js/main.js"></script>
         <form method="POST" action="{{url_for('movies')}}">
             <label for="numofmovies">How many movies would you like recommended?</label>
             <input type="number" id="numofmovies" name="numofmovies" required>

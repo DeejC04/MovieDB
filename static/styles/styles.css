@@ -1,0 +1,29 @@
+body {
+    background: #2c2c2c;
+    color: #f31760;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.select {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 3px;
+}
+
+.select_item {
+    padding: 6px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    border-radius: 2px;
+    border-color: #FBF9FA;
+    color: #ffe9f4;
+    background: #272AB0;
+    transition: background 0.3s;
+}
+
+.select_item-selected {
+    background: #d1d2fa;
+    color: #3f007a;
+    border-color: #9e9e9e;
+}
