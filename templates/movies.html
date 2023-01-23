@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recommended Movies</title>
+    </head>
+    <body>
+        <a href="http://127.0.0.1:5000/">Back to home</a>
+        <h1>Recommended Movies</h1>
+        <ul>
+            {% for movie in movies %}
+                <li>{{ movie }}</li>
+            {% endfor %}
+        </ul>
+        <p>This website utilizes <a href="https://developers.themoviedb.org/3/getting-started/introduction">The Movie Database API</a></p>
+    </body>
+</html>

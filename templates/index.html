@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie Recommendation</title>
+    </head>
+    <body>
+        <h1>Movie Recommendation</h1>
+        <form method="POST" action="{{url_for('movies')}}">
+            <label for="numofmovies">How many movies would you like recommended?</label>
+            <input type="number" id="numofmovies" name="numofmovies" required>
+            <input type="submit" value="Submit">
+        </form>
+        <p>This website utilizes <a href="https://developers.themoviedb.org/3/getting-started/introduction">The Movie Database API</a></p>
+    </body>
+</html>
