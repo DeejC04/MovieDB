@@ -41,8 +41,5 @@ Also, for info on the workflow, you can check [this](https://docs.github.com/en/
 
 ## Feel free to reach out with any other questions via Discord! Message DeejC#3638
 
-<a href="https://github.com/DeejC04/MovieDB/graphs/contributors">
-  <img src="https://opencollective.com/MovieDB/contributors.svg?width=890&button=false">
-</a>
 
 
