@@ -3,7 +3,7 @@
 ## This project is being maintained by [Wutang04](https://github.com/Wutang03) and [DeejC04](https://github.com/DeejC04), and of course, our contributors!
 We are currently utilizing [The Movie Database API](https://www.themoviedb.org/?language=en-US)
 
-=======
+---
 
 ## Current functionality:
 
