@@ -17,6 +17,7 @@ We are currently utilizing [The Movie Database API](https://www.themoviedb.org/?
 - Filter by category
 - Images with links to the movies' IMDB page
 - Show similar movies
+- Better UI (please lol)
 - And more!
 
 ## Contributing
