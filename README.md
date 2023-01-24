@@ -31,10 +31,14 @@ For contributing code, follow these steps:
 1. Fork your own branch
 2. Clone that fork onto your PC
 3. Create a separate working branch
-4. Make your changes
-5. Add, commit, and push to your new branch
-6. Create a pull request, detail your changes, etc
-7. You're done! We can look over the changes and merge as long as everything looks good.
+  - IMPORTANT SUBSTEP: Get your own API key from [TMDB](https://developers.themoviedb.org/3/getting-started/introduction). Within `.env.example`, replace `YOUR_KEY_HERE` with your newly acquired API key. Finally, rename `.env.example` to `.env`
+  - Veriy that `.env` is listed in your `.gitignore` file
+4. If you wish, create a virtual environment.
+5. Whether or not you created a virtual environment, install the required packages/libraries by inputting `pip install -r requirements.txt` into your terminal.
+6. Make your changes
+7. Add, commit, and push to your new branch
+8. Create a pull request, detail your changes, etc
+9. You're done! We can look over the changes and merge as long as everything looks good.
 
 For more info, read [this](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 
